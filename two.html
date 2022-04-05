@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="font-size: 100px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="telephone=no" name="format-detection">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="applicable-device" content="pc,mobile">
+	<title>AIETECH</title>
+	<meta name="description" content="AIETECH">
+	<meta name="keywords" content="AIETECH">
+	<script src="./js/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/feedback.js"></script>
+	<script type="text/javascript" src="./js/rem.js"></script>
+	<link href="./css/bootstrap.min.css" rel="stylesheet">
+	<link href="./css/header.css?version=1.0" rel="stylesheet">
+	<link href="css/two.css?version=1.0" rel="stylesheet">
+	<style></style>
+</head>
+
+<body style="">
+	<div class="tan" id="tan">
+		<div class="tanNav clearfix">
+		  <img class="tanLogo" src="./img/logo.png" alt="">
+		  <img class="tanHeng" src="./img/heng.png" id="hengClose" alt="">
+		  <span id="language"> <em class="identification">EN</em> <i class="arrow"></i></span>
+		</div>
+		<ul class="menu mpDH">
+    <li onclick="goHome()">HOME</li>
+    <li onclick="showAlert()">NEWSROOM</li>
+    <li onclick="goMobileAbout()">ABOUT US</li>
+    <li onclick="goMobileContact()">CONTACT US</li>
+    </ul>
+		<ul class="lang">
+		  <li onclick="checkLanguage(&#39;1&#39;)">English</li>
+		  <li onclick="checkLanguage(&#39;2&#39;)">ภาษาไทย</li>
+		</ul>
+	  </div>
+	  <div class="mpNav clearfix  visible-xs-block">
+		<img src="./img/header.png" alt="">
+		<img src="./img/more.png" id="heng" alt="">
+	  </div>
+	  <div class="container">
+		<div class="index-header hidden-xs">
+		  <img src="./img/index_header.png" class="index-header-1">
+		  <div class="index-header-2">
+			<span class="pcNav"><a onclick="goHome()">HOME</a>
+        <a onclick="showAlert()">NEWSROOM</a>
+        <a onclick="goAbout()">ABOUT US</a>
+        <a onclick="goContact()">CONTACT US</a></span>
+			<div class="index-header-3" id="pc_lang">
+			  <span><em class="identification">EN</em> <i class="arrow"></i></span>
+			  <div class="index-header-lang">
+				<div onclick="checkLanguage(&#39;1&#39;)">English</div>
+				<div onclick="checkLanguage(&#39;2&#39;)">ภาษาไทย</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<div class="twoCon">
+			<div class="towTit">AIETECH<br>COVID-19 EYE TEST</div>
+			<ul class="percentage clearfix">
+				<li class="twoLang1">
+      <p class="p1">85%</p>
+      <p class="p2">AVERAGE ON <span>CROSS-RACE</span> PATIENTS</p>
+      <p class="p3">SENSITIVITY / SPECIFICITY</p>
+  </li>
+				<li class="twoLang2">
+    <p class="p1">75%</p>
+    <p class="p2">AVERAGE ON <span>CROSS-RACE</span> PATIENTS</p>
+    <p class="p3">ASYMPTOMATIC DETECTION RATE</p>
+  </li>
+				<li class="twoLang3">
+    <p class="p1">97%</p>
+    <p class="p2">AVERAGE ON <span>ASIAN</span> PATIENTS</p>
+    <p class="p3">SENSITIVITY / SPECIFICITY</p>
+  </li>
+			</ul>
+			<div class="subject">
+				<h3 class="twoLang4">
+    ON AUTHORISED RT-PCR CONFIRMED SUBJECTS<br>
+    <span>VARIANCE =±10% </span>IN TERMS OF TESTING EXAMPLES
+  </h3>
+				<img src="img/subject.png" class="subjectImg hidden-xs" alt="">
+				<img src="img/sub1.png" class="subjectMpImg visible-xs-block" alt="">
+				<img src="img/sub2.png" class="subjectMpImg visible-xs-block" alt="">
+				<img src="img/sub3.png" class="subjectMpImg visible-xs-block" alt="">
+				<p>
+					Classification performance of the classification network
+					<span> on the dataset of China</span>
+				</p>
+			</div>
+			<div class="bottomText">
+          Since February 2020, we have launched a globally COVID-19 eye test
+          program with registered clinical trials, and propose a new fast
+          screening method of analyzing the eye-region images, captured by
+          common CCD and CMOS cameras. This could reliably make a rapid risk
+          screening of COVID-19 with the sustainable stable high performance in
+          different countries and races. Meantime, we have built a globally
+          COVID-19 eye test links platform which implements
+          our algorithms and helps fast screening COVID-19. Furthermore, this
+          platform could gradually open more than 300 diseases eye tests and
+          joint study programs' invitation, such as virus influenza, diabetes,
+          hepatopathy, etc. We believe that the eye test study by AIETECH can
+          be inspiring and helpful for encouraging more researches in this
+          direction, and provide effective and rapid assist for clinical risk
+          screening, especially during the daily country wide screening,
+          outbreak monitoring, test pooling candidate selection.
+  </div>
+			<div class="tools">
+				<a href="https://www.medrxiv.org/content/10.1101/2020.09.03.20184226v4">[1] A New Screening Method for COVID-19 based on Ocular Feature
+					Recognition by Machine Learning Tools</a>
+				<a href="https://www.medrxiv.org/content/10.1101/2021.06.23.21258626v1">
+					[2] Report on Three Round COVID-19 Risk Blind Tests by Screening Eye-region Manifestations</a>
+					<a href="https://www.medrxiv.org/content/10.1101/2021.09.24.21263766v1">
+						[3] The Report on China-Spain Joint Clinical Testing for Rapid COVID-19 Risk Screening by Eye-region Manifestations</a>
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="./js/header.js"></script>
+<script type="text/javascript" src="js/langTwo.js"></script>
+</body></html>

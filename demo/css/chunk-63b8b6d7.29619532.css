@@ -1,0 +1,57 @@
+.login-layout .login-info[data-v-74524e20] {
+    padding: 0 .906667rem
+}
+
+.login-layout .login-info .info-list[data-v-74524e20] {
+    position: relative
+}
+
+.login-layout .login-info .info-list .forget-pwd[data-v-74524e20] {
+    position: absolute;
+    bottom: -.8rem;
+    left: .4rem;
+    color: #1989fa;
+    font-size: .293333rem;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.login-layout .login-info .info-list .forget-pwd .svg-icon[data-v-74524e20] {
+    padding-right: .106667rem;
+    width: .32rem;
+    height: .32rem
+}
+
+.login-layout .page-logo[data-v-74524e20] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: .853333rem;
+    margin-bottom: .853333rem
+}
+
+.login-layout .login-register-btns[data-v-74524e20] {
+    text-align: center;
+    padding-top: 1.6rem
+}
+
+.login-layout .login-register-btns .login-btn[data-v-74524e20] {
+    display: inline-block;
+    width: 7.333333rem;
+    height: 1.173333rem;
+    line-height: 1.173333rem;
+    color: #fff;
+    font-size: .453333rem;
+    border-radius: .106667rem
+}
+
+.login-layout .login-forget[data-v-74524e20] {
+    width: 5.333333rem;
+    text-align: center;
+    color: #8a8a8a;
+    font-size: .373333rem;
+    margin: 0 auto;
+    margin-top: .266667rem;
+    display: block
+}

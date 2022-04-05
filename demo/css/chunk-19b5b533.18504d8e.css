@@ -1,0 +1,116 @@
+body[data-v-0828c496] {
+    overflow-x: hidden
+}
+
+.home-layout[data-v-0828c496] {
+    background: #fff;
+    width: 100%;
+    overflow-x: hidden;
+    position: relative
+}
+
+.home-layout[data-v-0828c496]:after {
+    position: absolute;
+    left: -30%;
+    right: 0;
+    bottom: 0;
+    content: "";
+    z-index: 1;
+    height: 83%;
+    width: 160%;
+    border-radius: 50% 50% 0 0;
+    background: linear-gradient(#1989fa, #88bcf0)
+}
+
+.home-layout .home-title[data-v-0828c496] {
+    width: 100%;
+    height: .426667rem;
+    font-size: .4rem;
+    color: #1989fa;
+    text-align: center;
+    margin-top: .213333rem;
+    z-index: 10
+}
+
+.home-layout .home-tip[data-v-0828c496] {
+    width: 100%;
+    height: .533333rem;
+    font-size: .24rem;
+    color: #1989fa;
+    text-align: center;
+    margin-top: .106667rem;
+    z-index: 10
+}
+
+.home-layout .home-content[data-v-0828c496] {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    z-index: 100;
+    position: relative;
+    margin-top: 2.133333rem
+}
+
+.home-layout .home-content .home-button[data-v-0828c496] {
+    width: 5.333333rem;
+    height: .8rem;
+    border-radius: .4rem;
+    color: #fff;
+    background: none;
+    margin-top: .8rem
+}
+
+.home-layout .home-content .home-button.home-button-white[data-v-0828c496] {
+    color: #1989fa;
+    background: #fff;
+    box-shadow: 0 .266667rem .266667rem rgba(0, 0, 0, .4)
+}
+
+.home-layout .home-content .home-tip-text[data-v-0828c496] {
+    width: 100%;
+    max-height: 45vh;
+    overflow: auto;
+    font-size: .32rem;
+    color: #fff;
+    text-align: left;
+    margin-top: .8rem
+}
+
+.agreement-content[data-v-0828c496] {
+    width: 100%;
+    font-size: .373333rem;
+    padding: .266667rem;
+    height: 10.666667rem;
+    overflow-y: auto;
+    color: #8a8a8a
+}
+
+.dialog-content[data-v-0828c496] {
+    width: 100%;
+    font-size: .373333rem;
+    padding: .533333rem;
+    height: auto;
+    color: #8a8a8a
+}
+
+.home-link[data-v-0828c496] {
+    color: #fff;
+    font-size: .426667rem;
+    font-family: PingFang SC, microsoft yahei;
+    width: 4.8rem;
+    height: .533333rem;
+    line-height: .533333rem;
+    position: absolute;
+    display: block;
+    left: calc(50% - 2.4rem);
+    bottom: .533333rem;
+    z-index: 10
+}
+
+.van-notice-bar {
+    font-size: .32rem;
+    line-height: .426667rem;
+    height: .426667rem
+}

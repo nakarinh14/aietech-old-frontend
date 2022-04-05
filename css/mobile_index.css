@@ -1,0 +1,551 @@
+.mobile-container {
+  width: 100%;
+}
+
+.mobile-item {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.mobile-1 {
+  padding-top: 1.6rem;
+}
+.mobile-1 .mobile-1-1 {
+  width: 3.78rem;
+  height: 1.52rem;
+  display: block;
+  position: relative;
+
+}
+.mobile-1 .mobile-1-1 img {
+  width: 100%;
+  height: 100%;
+  border-bottom:1px rgba(255, 255, 255, 0.52) solid ;
+}
+.mobile-1 .mobile-1-1:after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.52);
+  position: absolute;
+  top: 0.75rem;
+  left: 0;
+}
+.mobile-1 .mobile-1-2 {
+  width: 100%;
+  text-align: center;
+  font-size: 0.18rem;
+  /* font-family: SourceHanSansCN-Normal, SourceHanSansCN, fontRB; */
+  font-family: fontSy;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 0.32rem;
+  margin-top:0.16rem;
+}
+.mobile-1 .mobile-1-3 {
+  width: 6.3rem;
+  height: 1.56rem;
+  display: block;
+  margin-top: 0.34rem;
+  position: relative;
+}
+.mobile-1 .mobile-1-3 img{
+  width: 100%;
+  height: 100%;
+}
+.mobile-1 .mobile-1-3:after {
+  content: '';
+  width: 3.2rem;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.52);
+  position: absolute;
+  bottom: -2px;
+  left: 1.55rem;
+}
+.mobile-1 .mobile-1-4 {
+  width: 100%;
+  text-align: center;
+  height: 0.32rem;
+  font-size: 0.2rem;
+  /* font-family: SourceHanSans-Bold, SourceHanSans, fontRB; */
+  font-family: fontSy;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 0.32rem;
+  margin-top: 0.12rem;
+}
+.mobile-1 .mobile-1-5 {
+  width: 100%;
+  text-align: center;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  font-size: 0.28rem;
+  /* font-family: SourceHanSans-Bold, SourceHanSans, fontRB; */
+  font-family: fontSy;
+  font-weight: bold;
+  color: #FFDA39;
+}
+.mobile-1 .mobile-1-5 .fontCon {
+  color: #FFDA39;
+}
+.mobile-1 .mobile-fda {
+  width: 100%;
+  text-align: center;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  font-size: 0.28rem;
+  /* font-family: SourceHanSans-Bold, SourceHanSans, fontRB; */
+  font-family: fontSy;
+  font-weight: bold;
+  color: #FFDA39;
+}
+.mobile-1 .mobile-fda .fontCon {
+  color: #FFDA39;
+}
+.mobile-1 .mobile-1-6 {
+  font-size: 0.18rem;
+  text-align: center;
+  /* font-family: SourceHanSans-Bold, SourceHanSans, fontRB; */
+  font-family: fontSy;
+  font-weight: 400;
+  color: #FFFFFF;
+  position: relative;
+  line-height: 0.36rem;
+  text-decoration: underline;
+}
+.mobile-1 .mobile-1-7 {
+  width: 100%;
+  height: 2.38rem;
+  display: flex;
+  margin-top: 0.84rem;
+  justify-content: space-between;
+  padding: 0 0.76rem;
+}
+.mobile-1 .mobile-1-7 .mobile-1-7-item {
+  width: 2.64rem;
+  height: 2.38rem;
+  display: flex;
+  position: relative;
+}
+.mobile-1 .mobile-1-7 .mobile-1-7-item .mobile-1-7-img {
+  width: 1.67rem;
+  height: 2.38rem;
+  position: absolute;
+  left: 0.49rem;
+  top:0;
+}
+.mobile-1 .mobile-1-7 .mobile-1-7-item .mobile-1-7-bg {
+  width: 100%;
+  height: 0.32rem;
+  position: absolute;
+  left: 0;
+  top: 0.7rem;
+}
+.mobile-1 .mobile-1-8 {
+  width: 100%;
+  height: 1.84rem;
+  display: flex;
+  margin-top: 0.34rem;
+  justify-content: space-around;
+  padding: 0 0.7rem;
+}
+.mobile-1 .mobile-1-8 .mobile-1-8-item {
+  width: 1.28rem;
+  height: 1.84rem;
+}
+
+.mobile-2 {
+  padding-top: 1rem;
+}
+.mobile-2 .mobile-2-1 {
+  width: 5.08rem;
+  height: 1.48rem;
+}
+.mobile-2 .mobile-2-2 {
+  width: 100%;
+  text-align: center;
+  height: 0.52rem;
+  font-size: 0.2rem;
+  /* font-family: SourceHanSansCN-Normal, SourceHanSansCN, fontRB; */
+  font-family: fontSy;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 0.36rem;
+  letter-spacing: 1px;
+}
+.mobile-2 .mobile-2-3 {
+  margin-top: 0.6rem;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.mobile-2 .mobile-2-3 .title {
+  width: 100%;
+  text-align: center;
+  height: 0.63rem;
+  font-size: 0.44rem;
+  /* font-family: SourceHanSans-Bold, SourceHanSans, fontRB; */
+  font-family: fontSy;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 0.63rem;
+}
+.mobile-2 .mobile-2-3 .tip{
+  width: 100%;
+  text-align: center;
+  height: 0.4rem;
+  font-size: 0.22rem;
+  /* font-family: SourceHanSansCN-Normal, SourceHanSansCN, fontRB; */
+  font-family: fontSy;
+  font-weight: 400;
+  color: #FFDA39;
+  line-height: 0.3rem;
+}
+.mobile-2 .mobile-2-3 .box{
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.1rem;
+
+}
+.mobile-2 .mobile-2-3 .box>span{
+  text-decoration:underline;
+  font-size:0.2rem;
+}
+.mobile-2 .mobile-2-3 .box div{
+  font-size: 0.2rem;
+  /* font-family: SourceHanSansCN-Normal, SourceHanSansCN, fontRB; */
+  font-family: fontSy;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 0.56rem;
+}
+.mobile-2 .mobile-2-3 .box .active{
+  height: 0.56rem;
+  font-size: 0.32rem;
+  /* font-family: SourceHanSansCN-Normal, SourceHanSansCN, fontRB; */
+  font-family: fontSy;
+  font-weight: 400;
+  color: #49CAFF;
+  line-height: 0.56rem;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-bottom: 0.2rem;
+}
+
+
+.mobile-3{
+  padding-top: 0.92rem;
+}
+.mobile-3 .mobile-3-1 {
+  width: 5.28rem;
+  height: 1.48rem;
+}
+.mobile-3 .mobile-3-2 {
+  width: 100%;
+  text-align: center;
+  height: 1rem;
+  font-size: 0.2rem;
+  /* font-family: SourceHanSansCN-Normal, SourceHanSansCN, fontRB; */
+  font-family: fontSy;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 0.72rem;
+}
+.mobile-3 .mobile-3-3 {
+  width: 6.34rem;
+  height: 1rem;
+  margin-top: 0.4rem;
+}
+.mobile-tip {
+  text-align: center;
+  font-size: 0.18rem;
+  /* font-family: SourceHanSansCN-Normal, SourceHanSansCN, fontRB; */
+  font-family: fontSy;
+  font-weight: 400;
+  color: #FFDA39;
+  line-height: 0.26rem;
+  position: relative;
+}
+.mobile-tip>span{
+  color: #FFDA39;
+}
+.mobile-tip:before {
+  content: '';
+  width: 0.82rem;
+  height: 0.04rem;
+  background: linear-gradient(126deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+  border-radius: 0.04rem;
+  position: absolute;
+  left: -0.9rem;
+  top: 48%;
+}
+.mobile-4-2::before{
+  content: '';
+  width: 0.82rem;
+  height: 0.04rem;
+  background: linear-gradient(126deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+  border-radius: 0.04rem;
+  position: absolute;
+  left: -0.9rem;
+  top: 48%;
+}
+.mobile-tip:after {
+  content: '';
+  width: 0.82rem;
+  height: 0.04rem;
+  background: linear-gradient(126deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 0.04rem;
+  position: absolute;
+  right: -0.9rem;
+  top: 48%;
+}
+.mobile-4-2::after{
+  content: '';
+  width: 0.82rem;
+  height: 0.04rem;
+  background: linear-gradient(126deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 0.04rem;
+  position: absolute;
+  right: -0.9rem;
+  top: 48%;
+}
+.mobile-3 .mobile-3-4 {
+  /* width:4.7rem; */
+  margin-top: 0.14rem;
+}
+.mobile-button {
+  width: 5.9rem;
+  text-align: center;
+  height: 0.86rem;
+  background: rgba(255, 255, 255, 0.26);
+  border-radius: 0.54rem;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  font-size: 0.2rem;
+  font-family: SourceHanSansCN-Normal, SourceHanSansCN, fontRB;
+  /* font-family: fontSy; */
+  color: #FFFFFF;
+  line-height: 0.86rem;
+  user-select: none;
+  font-size:0.32rem;
+  /* font-weight: bold; */
+}
+.mobile-button span {
+  margin-left: 0.06rem;
+}
+.mobile-3 .mobile-3-5 {
+  margin-top: 0.6rem;
+}
+.mobile-3 .mobile-3-6 {
+  margin-top: 0.24rem;
+  height: 0.44rem;
+  font-size: 0.22rem;
+  /* font-family: SourceHanSansCN-Normal, SourceHanSansCN, fontRB; */
+  font-family: fontSy;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 0.44rem;
+  text-decoration: underline;
+}
+.mobile-3 .mobile-3-7 {
+  width: 6.34rem;
+  height: 1.02rem;
+  margin-top: 0.72rem;
+}
+
+.mobile-item.mobile-5 {
+  padding-top: 1.1rem;
+}
+.mobile-5 .mobile-5-1{
+  font-size:0.32rem;
+  font-family: fontPm;
+  font-weight: bold;
+  margin-bottom: 0.24rem;
+}
+.mobile-5 .mobile-5-text {
+  width: 100%;
+  padding: 0 0.4rem;
+  font-size: 0.2rem;
+  /* font-family: SourceHanSansCN-Normal, SourceHanSansCN, fontRB; */
+  font-family: fontSy;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 0.36rem;
+}
+.mobile-5 .mobile-5-2{
+  font-size:0.32rem;
+  font-family: fontPm;
+  font-weight: bold;
+  margin-bottom: 0.24rem;
+  margin-top: 0.68rem;
+  margin-bottom: 0.24rem;
+}
+.mobile-5 .mobile-5-3{
+  font-size:0.32rem;
+  font-family: fontPm;
+  font-weight: bold;
+  margin-top: 0.72rem;
+  margin-bottom: 0.24rem;
+}
+
+
+.mobile-6 {
+  padding-top: 1.42rem;
+}
+.mobile-6 .mobile-6-1{
+  font-size:0.55rem;
+  font-family: fontPm;
+  margin-bottom: 0.86rem;
+}
+.mobile-input {
+  width: 5.32rem;
+  height: 0.76rem;
+  background: #FFFFFF;
+  border-radius: 0.12rem;
+  font-size: 0.22rem;
+  /* font-family: SourceHanSans-Bold, SourceHanSans, fontRB; */
+  font-family: fontSy;
+  font-weight: bold;
+  color: #A3A3A3;
+  margin-bottom: 0.34rem;
+  padding: 0 0.38rem;
+}
+.mobile-6 .mobile-6-2 {
+  margin-top: 0.56rem;
+  font-size: 0.28rem;
+}
+.mobile-footer {
+  width: 100%;
+  height: 0.96rem;
+  line-height: 1.5;
+  font-size: 0.12rem;
+  /* font-family: SourceHanSans-Bold, SourceHanSans, fontRB; */
+  font-family: fontSy;
+  /* font-weight: bold; */
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 1.06rem;
+  letter-spacing: 0.1em;
+}
+
+@media screen and (max-width:768px) {
+
+  html,
+  body {
+    background: url(../img/mobile/bg.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .lang{
+    display: none;
+  }
+  .tan ul li {
+    font-size: 0.28rem;
+    color: #fff;
+    margin-top: 1.10rem;
+    text-align: center;
+  }
+  .tan {
+    z-index: 20;
+    display: none;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom:0;
+    background: url(../img/mpBg.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .tanNav {
+    height: 0.86rem;
+    padding: 0 0.28rem;
+    position: relative;
+  }
+
+  .tanNav .tanLogo {
+    float: left;
+    width: 24.8%;
+    margin-top: 0.12rem;
+  }
+
+  .tanNav .tanHeng {
+    float: right;
+    /* width: 10%; */
+    margin-top: 0.24rem;
+    width: 0.44rem;
+    height: 0.38rem;
+  }
+
+  .tanNav span{
+    position: absolute;
+    right:1.3rem;
+    top:0.24rem;
+  }
+  .mpNav {
+    width: 100%;
+    height: 0.86rem;
+    padding: 0 0.28rem;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 10;
+  }
+
+  .mpNav img:first-child {
+    float: left;
+    width: 24.8%;
+    margin-top: 0.12rem;
+  }
+
+  .mpNav img:last-child {
+    float: right;
+    /* width: 10%; */
+    margin-top: 0.24rem;
+    width: 0.44rem;
+    height: 0.38rem;
+  }
+}
+
+/*右箭头*/
+.mobile-right-arrow {
+  display :inline-block;
+  position: relative;
+  width: 0.28rem;
+  height: 0.28rem;
+}
+.mobile-right-arrow::after {
+  display: inline-block;
+  content: " ";
+  height: 0.13rem;
+  width: 0.13rem;
+  border-width: 0.04rem 0.04rem 0 0;
+  border-color: #ffffff;
+  border-style: solid;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  position: absolute;
+  top: 50%;
+  left: 0.2rem;
+  margin-top:-0.05rem;
+}
+
+/* .right-arrow::after {
+  display: inline-block;
+  content: " ";
+  height: 10px;
+  width: 10px;
+  border-width: 2px 2px 0 0;
+  margin-top:0.06rem;
+} */

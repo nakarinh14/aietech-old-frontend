@@ -1,0 +1,219 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+em,
+img,
+strong,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+label,
+table,
+caption,
+article,
+aside,
+canvas,
+details,
+footer,
+header,
+menu,
+nav,
+section,
+time,
+mark,
+audio,
+video,
+input,
+select {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-family: "微软雅黑";
+  box-sizing: border-box;
+  list-style: none;
+  font-style: normal;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -o-tap-highlight-color: rgba(0, 0, 0, 0);
+  -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+  -ms-tap-highlight-color: rgba(0, 0, 0, 0);
+  color: #fff;
+}
+
+@font-face {
+    font-family: 'fontPm';
+    src: url(../fonts/pmzd.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'fontSy';
+    src: url(../fonts/syht.ttf) format('truetype');
+}
+
+
+@font-face {
+    font-family: 'fontRB';
+    src: url(../fonts/Roboto-Black.ttf) format('truetype');
+}
+.fontTitle {
+    font-family: "Gilroy-Bold",-apple-system,"Sofia Pro","Microsoft YaHei","Helvetica","Arial",sans-serif !important;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.fontCon {
+    font-family: "DM Sans","Gilroy",-apple-system,"Sofia Pro","Microsoft YaHei","Helvetica","Arial",sans-serif !important;
+
+}
+.identification{
+    font-family: "DM Sans","Gilroy",-apple-system,"Sofia Pro","Microsoft YaHei","Helvetica","Arial",sans-serif !important;
+}
+
+
+
+/* "DM Sans","Gilroy",-apple-system,"Sofia Pro","Microsoft YaHei","Helvetica","Arial",sans-serif */
+
+/* .chinese{
+    display: none!important;
+} */
+
+
+.pcNav{
+    width: 900px;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: ".";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.index-header {
+    width: 100vw;
+    height: 83px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(11, 12, 41, 0.27);
+    padding: 0 calc(50% - 640px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.index-header .index-header-1 {
+    width: 190px;
+    height: 82px;transform: translateY(5px);
+}
+.index-header .index-header-2 {
+    width: 1000px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.index-header .index-header-2 span{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.index-header .index-header-2 span a {
+    display: block;
+    color: #ffffff;
+    opacity: 0.8;
+    width: auto;
+    height: 83px;
+    line-height: 83px;
+    font-size: 16px;
+    font-family: Roboto-Black, Roboto;
+    font-weight: 900;
+    color: #FFFFFF;
+    transition: opacity 1s;
+    cursor: pointer;
+    margin-right: 52px;
+}
+.index-header .index-header-2 span a:hover {
+    opacity: 1;
+}
+.index-header .index-header-3 {
+    width: 112px;
+    height: 59px;
+    position: relative;
+}
+.index-header .index-header-3 span{
+    width: 100%;
+    height: 59px;
+    line-height: 59px;
+    text-align: center;
+    font-size: 15px;
+    font-family: SourceHanSansSC-Bold, SourceHanSansSC;
+    font-weight: bold;
+    color: #FFFFFF;
+    display: block;
+    cursor: pointer;
+}
+.index-header .index-header-3 span .arrow {
+    margin-left: 13px;
+}
+.index-header .index-header-lang {
+    width: 100%;
+    background: rgba(205, 202, 202, 0.12);
+    transition: all 0.5s;
+    display: none;
+}
+.index-header .index-header-lang div {
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    font-family: SourceHanSansSC-Medium, SourceHanSansSC, fontRB;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.index-header .index-header-lang div:hover {
+    font-family: SourceHanSansSC-Bold, SourceHanSansSC;
+    font-weight: bold;
+    background: rgba(216, 216, 216, 0.22);
+}
+.arrow{
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    vertical-align: 2px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+  }
+  .arrow.curr{
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }

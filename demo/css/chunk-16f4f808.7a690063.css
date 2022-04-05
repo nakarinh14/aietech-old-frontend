@@ -1,0 +1,46 @@
+.register-page .page-logo[data-v-1cb898c2] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: .853333rem;
+    margin-bottom: .853333rem
+}
+
+.register-page .register-agreement[data-v-1cb898c2] {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .533333rem auto
+}
+
+.register-page .register-agreement span[data-v-1cb898c2] {
+    font-size: .346667rem;
+    color: #1989fa;
+    text-decoration: underline;
+    margin-left: .266667rem
+}
+
+.register-page .login-register-btns[data-v-1cb898c2] {
+    text-align: center;
+    padding-top: 1.066667rem
+}
+
+.register-page .login-register-btns .login-btn[data-v-1cb898c2] {
+    display: inline-block;
+    width: 7.333333rem;
+    height: 1.173333rem;
+    line-height: 1.173333rem;
+    color: #fff;
+    font-size: .453333rem;
+    border-radius: .106667rem
+}
+
+.agreement-content[data-v-1cb898c2] {
+    width: 100%;
+    font-size: .373333rem;
+    padding: .266667rem;
+    height: 10.666667rem;
+    overflow-y: auto;
+    color: #8a8a8a
+}

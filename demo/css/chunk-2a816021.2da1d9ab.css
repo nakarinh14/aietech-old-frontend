@@ -1,0 +1,31 @@
+.faq .page-header[data-v-0799969e] {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: .266667rem
+}
+
+.faq .page-header .btn-left[data-v-0799969e] {
+    position: fixed;
+    left: .533333rem
+}
+
+.faq .page-header .header-content[data-v-0799969e] {
+    text-align: center;
+    font-size: .48rem;
+    color: #3a3a3a;
+    font-weight: 600;
+    flex: 1
+}
+
+.faq .page-header .appeal-record[data-v-0799969e] {
+    color: #d8182d;
+    font-size: .346667rem
+}
+
+.faq .faq-content[data-v-0799969e] {
+    width: 100%;
+    font-size: .373333rem;
+    padding: .266667rem;
+    color: #8a8a8a
+}

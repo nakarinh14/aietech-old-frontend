@@ -1,0 +1,71 @@
+.index .router-view {
+    width: 100%;
+    height: 100%;
+    -webkit-overflow-scrolling: touch
+}
+
+.index .router-view.covid-page {
+    padding: 0 .426667rem;
+    height: 100vh;
+    background: linear-gradient(#fdfdfd, #ecf0ff)
+}
+
+.index .router-view.covid-page .page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.173333rem;
+    position: relative
+}
+
+.index .router-view.covid-page .page-header .header-back {
+    background-color: #fff;
+    width: .64rem;
+    height: .64rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .32rem;
+    z-index: 10
+}
+
+.index .router-view.covid-page .page-header .header-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .48rem;
+    font-weight: 600;
+    color: #1989fa;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1
+}
+
+.index .router-view.covid-page .page-header .header-link {
+    color: #1989fa;
+    font-size: .346667rem;
+    z-index: 10
+}
+
+.index .router-view.covid-page .page-header .header-icon {
+    width: .533333rem;
+    height: .533333rem
+}
+
+.index .router-view.covid-page .covid-btns {
+    text-align: center;
+    margin-top: 1.333333rem
+}
+
+.index .router-view.covid-page .covid-btns .covid-btn {
+    display: inline-block;
+    width: 7.333333rem;
+    height: 1.173333rem;
+    line-height: 1.173333rem;
+    color: #fff;
+    font-size: .453333rem;
+    border-radius: .106667rem
+}

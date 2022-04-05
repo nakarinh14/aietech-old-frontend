@@ -1,0 +1,71 @@
+.index .covid-page.router-view.mine-layout[data-v-587c0088] {
+    background: linear-gradient(#1989fa, #fff)
+}
+
+.index .covid-page.router-view.mine-layout .mine-header[data-v-587c0088] {
+    display: flex;
+    padding-left: .64rem;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: .533333rem
+}
+
+.index .covid-page.router-view.mine-layout .mine-header .header-img[data-v-587c0088] {
+    width: 1.866667rem;
+    height: 1.866667rem
+}
+
+.index .covid-page.router-view.mine-layout .mine-header .user-info[data-v-587c0088] {
+    padding-left: .426667rem;
+    font-size: .4rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start
+}
+
+.index .covid-page.router-view.mine-layout .mine-header .login-regist[data-v-587c0088] {
+    font-size: .4rem;
+    color: #fff;
+    padding-left: .426667rem
+}
+
+.index .covid-page.router-view.mine-layout .mine-content[data-v-587c0088] {
+    box-shadow: 0 .133333rem .4rem 0 rgba(0, 0, 0, .1);
+    background-color: #fff;
+    border-radius: .213333rem;
+    padding: 0 .426667rem;
+    margin-top: .48rem
+}
+
+.index .covid-page.router-view.mine-layout .mine-content .options-list[data-v-587c0088] {
+    padding-top: .533333rem
+}
+
+.index .covid-page.router-view.mine-layout .mine-content .options-list .option-item[data-v-587c0088] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .426667rem;
+    padding-bottom: .586667rem
+}
+
+.index .covid-page.router-view.mine-layout .mine-content .options-list .option-item .item-info[data-v-587c0088] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .4rem;
+    color: #888
+}
+
+.index .covid-page.router-view.mine-layout .mine-content .options-list .option-item .item-info .incon[data-v-587c0088] {
+    padding-right: .426667rem
+}
+
+.index .covid-page.router-view.mine-layout .mine-content .options-list .option-item .item-info .header-img[data-v-587c0088] {
+    width: 1.333333rem;
+    height: 1.333333rem;
+    padding-right: .426667rem
+}

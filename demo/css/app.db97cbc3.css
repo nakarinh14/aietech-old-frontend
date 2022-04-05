@@ -1,0 +1,117 @@
+a, article, aside, b, body, button, cite, dd, div, dl, dt, figcaption, figure, footer, h1, h2, h3, h4, h5, h6, header, i, input, li, nav, p, section, select, span, textarea, ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    font-family: Microsoft Yahei, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box
+}
+
+a:focus, article:focus, aside:focus, b:focus, body:focus, button:focus, cite:focus, dd:focus, div:focus, dl:focus, dt:focus, figcaption:focus, figure:focus, footer:focus, h1:focus, h2:focus, h3:focus, h4:focus, h5:focus, h6:focus, header:focus, i:focus, input:focus, li:focus, nav:focus, p:focus, section:focus, select:focus, span:focus, textarea:focus, ul:focus {
+    outline: none
+}
+
+body, html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+del {
+    color: #949497
+}
+
+input {
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+button, input, textarea {
+    border: none;
+    outline: none
+}
+
+a {
+    text-decoration: none;
+    color: #333
+}
+
+li {
+    list-style-type: none
+}
+
+body.dialog-open {
+    position: fixed;
+    width: 100%
+}
+
+#app, body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #efeff4;
+    -webkit-overflow-scrolling: touch
+}
+
+.wrap-content[data-v-363cff96] {
+    position: absolute;
+    opacity: 1;
+    background: #fff;
+    border-radius: .16rem;
+    z-index: 999999
+}
+
+.wrap-content .item[data-v-363cff96] {
+    opacity: .8;
+    padding: .213333rem 0;
+    margin: 0 .4rem;
+    font-size: .373333rem;
+    color: #3a3a3a;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: .026667rem solid #f2f2f2
+}
+
+.wrap-content .item span[data-v-363cff96] {
+    flex: 1;
+    text-align: center
+}
+
+.wrap-content .item .svg-icon[data-v-363cff96] {
+    width: .506667rem;
+    height: .506667rem
+}
+
+.wrap-content[data-v-363cff96]:before {
+    content: "";
+    position: absolute;
+    right: .266667rem;
+    top: -.373333rem;
+    border: .16rem solid transparent;
+    border-bottom: .266667rem solid #fff
+}
+
+.wrap-content .item[data-v-363cff96]:last-child {
+    border-bottom: none
+}
+
+.svg-icon[data-v-6be220a6] {
+    width: .64rem;
+    height: .64rem;
+    vertical-align: middle;
+    fill: currentColor;
+    overflow: hidden
+}
+
+.scroll-wrapper[data-v-7f454c63] {
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+
+.tabbar ul[data-v-61e39a3a] {
+    height: 1.333333rem
+}

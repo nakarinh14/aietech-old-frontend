@@ -1,0 +1,248 @@
+.order-layout, body {
+    overflow-x: hidden;
+}
+
+.order-layout {
+    background: rgb(255, 255, 255);
+    width: 100%;
+    position: relative;
+}
+
+.order-layout::after {
+    position: absolute;
+    left: -30%;
+    right: 0px;
+    bottom: 0px;
+    content: "";
+    z-index: 1;
+    height: 83%;
+    width: 160%;
+    border-radius: 50% 50% 0px 0px;
+    background: linear-gradient(rgb(25, 137, 250), rgb(192, 221, 250));
+}
+
+.order-layout .order-title {
+    height: 0.426667rem;
+    font-size: 0.4rem;
+    margin-top: 0.4rem;
+}
+
+.order-layout .order-tip, .order-layout .order-title {
+    width: 100%;
+    color: rgb(25, 137, 250);
+    text-align: center;
+    z-index: 10;
+}
+
+.order-layout .order-tip {
+    height: 0.533333rem;
+    font-size: 0.293333rem;
+    margin-top: 0.106667rem;
+}
+
+.order-layout .order-content {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    z-index: 100;
+    position: relative;
+    margin-top: 2.13333rem;
+}
+
+.order-layout .order-content .order-help {
+    width: 100%;
+    font-size: 0.48rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 0.533333rem;
+}
+
+.order-layout .order-content .order-uploader {
+    width: 5.33333rem;
+    height: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.533333rem;
+}
+
+.order-layout .order-content .order-button {
+    width: 5.33333rem;
+    height: 0.8rem;
+    border-radius: 0.4rem;
+    color: rgb(255, 255, 255);
+    background: none;
+}
+
+.order-layout .order-content .order-button.order-button-white {
+    color: rgb(25, 137, 250);
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0.266667rem 0.266667rem;
+}
+
+.order-layout .order-content .order-reset {
+    width: 6.4rem;
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-between;
+    margin-bottom: 0.266667rem;
+}
+
+.order-layout .order-content .order-reset .order-uploader {
+    width: 2.66667rem;
+    margin-top: 0px;
+}
+
+.order-layout .order-content .order-reset .order-uploader .order-button {
+    width: 2.66667rem;
+}
+
+.order-layout .order-content .order-tip-text {
+    width: 100%;
+    font-size: 0.32rem;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-top: 0.533333rem;
+}
+
+.order-layout .order-content .order-clip {
+    width: 100%;
+    height: 4rem;
+    z-index: 100;
+    margin-bottom: 0.533333rem;
+    margin-top: 0.533333rem;
+}
+
+.order-layout .order-content .order-example-text {
+    width: 100%;
+    font-size: 0.32rem;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-top: 0.533333rem;
+}
+
+.order-layout .order-content .order-example {
+    width: 7.6rem;
+    height: 2rem;
+    border-radius: 0.133333rem;
+    margin-top: 0.533333rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0.266667rem 0.266667rem;
+}
+
+.order-layout .order-content .order-result {
+    width: 100%;
+    margin-top: 0.8rem;
+    margin-bottom: 0.533333rem;
+    display: flex;
+    justify-content: center;
+}
+
+.order-layout .order-content .order-result .result-item {
+    flex: 1 1 0%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.266667rem 0px;
+}
+
+.order-layout .order-content .order-result .result-item .result-label {
+    color: rgb(255, 255, 255);
+    font-size: 0.48rem;
+    font-weight: 700;
+    margin-bottom: 0.533333rem;
+}
+
+.order-layout .order-content .order-result .result-item .result-label.result-label-high {
+    color: rgb(238, 10, 36);
+}
+
+.order-layout .order-content .order-result .result-item .order-low-risk {
+    width: 4.26667rem;
+    height: 0.8rem;
+    background: none;
+    border-color: rgb(255, 255, 255);
+    border-width: 0.08rem;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 0.48rem;
+    justify-content: center;
+}
+
+.order-layout .order-content .order-result .result-item .van-circle__text {
+    color: rgb(255, 255, 255);
+    font-size: 0.373333rem;
+    font-weight: 700;
+}
+
+.order-layout .order-content .order-prview-text {
+    width: 80%;
+    font-size: 0.32rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 0.533333rem;
+}
+
+.order-layout .order-content .order-preview-image {
+    width: 7.6rem;
+    height: 2rem;
+    display: block;
+    margin-top: 0.533333rem;
+}
+
+.order-layout .order-content .order-preview-buttons {
+    width: 80%;
+    display: flex;
+    margin-top: 0.533333rem;
+    justify-content: space-between;
+}
+
+.order-layout .order-content .order-preview-buttons .order-button {
+    width: 3.2rem;
+}
+
+.order-layout .van-circle__text {
+    color: rgb(255, 255, 255);
+    font-size: 0.586667rem;
+    font-weight: 700;
+}
+
+.order-layout .order-result-tip {
+    text-align: center;
+    margin-top: 1.06667rem;
+}
+
+.order-layout .order-result-tip, .order-layout .order-result-tip-a {
+    color: rgb(25, 137, 250);
+    font-size: 0.48rem;
+    font-weight: 700;
+    line-height: 0.533333rem;
+}
+
+.order-layout .dialog-content {
+    width: 100%;
+    font-size: 0.373333rem;
+    padding: 0.533333rem;
+    height: auto;
+    color: rgb(138, 138, 138);
+}
+
+.order-layout .dialog-content .order-result-tip-a {
+    font-size: 0.373333rem;
+    font-weight: 700;
+}
+
+.van-dialog.high-risk-dialog {
+    top: auto;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.van-dialog.high-risk-dialog .van-dialog__confirm {
+    color: rgb(25, 137, 250);
+    font-size: 0.373333rem;
+    font-weight: 700;
+    height: 0.8rem;
+}

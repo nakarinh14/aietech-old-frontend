@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="font-size: 100px;">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="telephone=no" name="format-detection">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="applicable-device" content="pc,mobile">
+    <title>AIETECH</title>
+    <meta name="description" content="AIETECH">
+    <meta name="keywords" content="AIETECH">
+    <script src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/feedback.js"></script>
+    <script type="text/javascript" src="./js/rem.js"></script>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/header.css?version=1.0" rel="stylesheet">
+    <link href="css/three.css?version=1.0" rel="stylesheet">
+    <style></style>
+</head>
+
+<body style="">
+<div class="tan" id="tan">
+    <div class="tanNav clearfix">
+        <img class="tanLogo" src="./img/logo.png" alt="">
+        <img class="tanHeng" src="./img/heng.png" id="hengClose" alt="">
+        <span id="language"> <em class="identification">EN</em> <i class="arrow"></i></span>
+    </div>
+    <ul class="menu mpDH">
+        <li onclick="goHome()">HOME</li>
+        <li onclick="goMobileFreeDemo()">FREE DEMO</li>
+        <li onclick="goMobileApiService()">API SERVICE</li>
+        <li onclick="showAlert()">NEWSROOM</li>
+        <li onclick="goMobileAbout()">ABOUT US</li>
+        <li onclick="goMobileContact()">CONTACT US</li>
+    </ul>
+    <ul class="lang">
+        <li onclick="checkLanguage(&#39;1&#39;)">English</li>
+        <li onclick="checkLanguage(&#39;2&#39;)">ภาษาไทย</li>
+    </ul>
+</div>
+<div class="mpNav clearfix  visible-xs-block">
+    <img src="./img/header.png" alt="">
+    <img src="./img/more.png" id="heng" alt="">
+</div>
+<div class="container">
+    <div class="index-header hidden-xs">
+        <img src="./img/index_header.png" class="index-header-1">
+        <div class="index-header-2">
+			<span class="pcNav"><a onclick="goHome()">HOME</a>
+        <a onclick="goFreeDemo()">FREE DEMO</a>
+        <a onclick="goApiService()">API SERVICE</a>
+        <a onclick="showAlert()">NEWSROOM</a>
+        <a onclick="goAbout()">ABOUT US</a>
+        <a onclick="goContact()">CONTACT US</a></span>
+            <div class="index-header-3" id="pc_lang">
+                <span><em class="identification">EN</em> <i class="arrow"></i></span>
+                <div class="index-header-lang">
+                    <div onclick="checkLanguage(&#39;1&#39;)">English</div>
+                    <div onclick="checkLanguage(&#39;2&#39;)">ภาษาไทย</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="threeCon">
+        <h2 class="threeTit">CAUTION!</h2>
+        <p class="p1 three1">BEFORE USE THE FREE DEMO </p>
+        <p class="p2">
+          <span class="three2">
+              1. Regarding the Data compliance and no-commercial purpose, all the Covid-19 eye test Free Demo in
+              only for China and Asian use only!
+          </span>
+        </p>
+        <p class="p2">
+          <span class="three3">
+              1. Regarding the Data compliance and no-commercial purpose, all the Covid-19 eye test Free Demo in
+              only for China and Asian use only!
+          </span>
+        </p>
+        <p class="p2"><span class="three4">2. Eye test free demo is not for any treatment decisions or infection control decisions. Any
+  high
+  risk case should be confirmed with the local government standard test or other necessary medical
+  intervention.</span>
+        </p>
+        <p class="p2"> <span class="three5">3. No any registration required! All input eye images eye test free demo users will be
+  terminated
+  after each ephemeral testing. You can experience the free demo just need to click the demo link and agree with
+  the free demo terms including the privacy policy.</span></p>
+        <p></p>
+        <p class="p1 p3 three6">COVID-19 EYE TEST<br class="visible-xs-block"> FREE DEMO PRIVACY POLICY</p>
+        <p class="p2 three7">
+  <span class="sp1">
+  We take your privacy seriously. Please read this Privacy Policy to learn how we treat your personal
+  information. By using or accessing our Services in any manner, you acknowledge that you accept the practices
+  and policies outlined below, and you hereby consent that we will collect, use and share your information as
+  described in this Privacy Policy. Remember that your use of the Services is at all times subject to our Terms
+  of Use, which incorporates this Privacy Policy. Any terms we use in this Policy without defining them have the
+  definitions given to them in the Terms of Use.</span>
+
+            <span class="sp1">If you have any questions or comments about our privacy policy, the ways in which we collect
+  and use your
+  Personal Data or your choices and rights regarding such collection and use, please do not hesitate to contact
+  us at: service@b-project.co.th . You may print a copy of this Privacy Policy If you have a disability, you may
+  access this Privacy Policy in an alternative format by contacting <i>service@b-project.co.th</i>. </span>
+            <span class="sp1">
+  What this Privacy Policy Covers</span>
+            <span>
+  This Privacy Policy covers how we treat Personal Data that we gather when you access or use our Services.
+  “Personal Data” means any information that identifies or relates to a particular individual and also includes
+  information referred to as “personally identifiable information” or “personal information” under applicable
+  data privacy laws, rules or regulations. This Privacy Policy does not cover the practices of companies we
+  don't own or control or people we don't manage.</span>
+            <span class="sp1">Categories of Personal Data We Collect</span>
+
+            <span>
+  The chart in this section details the categories of Personal Data that we collect and have collected over the
+  past months:
+</span>
+            <span><em>FREE APP's DEMO</em> : We don't collect any Personal Data with No registration required.
+</span>
+            <span><em>FREE DEMO API</em> : We don't collect any APP's end-uesr personal privacy data by FREE AIETECH API, We
+  only collect the company information during the FREE AIETECH API developer registration and the developer
+  qualification evaluation.
+</span>
+
+
+        </p>
+    </div>
+</div>
+
+<script type="text/javascript" src="./js/header.js"></script>
+<script type="text/javascript" src="js/langThree.js"></script>
+</body>
+</html>

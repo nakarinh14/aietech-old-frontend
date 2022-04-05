@@ -1,0 +1,266 @@
+html,
+body {
+  background: url(../img/pcBg.png) no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  max-width: 1920px;
+}
+
+.useBox {
+  width: 100%;
+  max-width: 1920px;
+  padding-top: 127px;
+  padding-bottom: 50px;
+}
+
+.useLeft {
+  float: left;
+  width: 45%;
+  padding-top: 30px;
+  /* padding: 0 2%; */
+}
+
+.useLeft>img {
+  max-width: 100%;
+  display: block;
+}
+
+
+.useRight {
+  float: left;
+  width: 45%;
+  margin-right: 3%;
+  padding-left: 4%;
+
+}
+
+.useRight .imgTit {
+  width: 756px;
+  height: 156px;
+  margin-bottom: 60px;
+}
+
+
+.useRightText .p1 {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #fff;
+  /* font-family: SourceHanSans-Bold, SourceHanSans, fontRB; */
+  font-family: fontSy;
+  display: block;
+  width: 100%;
+  letter-spacing:1.5px;
+}
+
+.useRightText .p2 span {
+  display: block;
+  margin-top: 30px;
+  font-size: 17px;
+  /* font-family: SourceHanSans-Bold, SourceHanSans, fontRB; */
+  font-family: fontSy;
+  font-weight: bold;
+  color: #fff;
+  line-height: 36px;
+  letter-spacing:1.5px;
+}
+
+.tan{
+  display: none;
+}
+
+
+
+@media screen and (max-width:768px) {
+
+  html,
+  body {
+    background: url(../img/mpBg.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .useBox {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+
+
+
+
+  .tan {
+    z-index: 2;
+    display: none;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom:0;
+    background: url(../img/mpBg.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .tanNav {
+    height: 0.86rem;
+    padding: 0 0.28rem;
+    position: relative;
+  }
+
+  .tanNav .tanLogo {
+    float: left;
+    width: 24.8%;
+    margin-top: 0.12rem;
+  }
+
+  .tanNav .tanHeng {
+    float: right;
+    /* width: 10%; */
+    margin-top: 0.24rem;
+    width: 0.44rem;
+    height: 0.38rem;
+  }
+
+  .tanNav span{
+    position: absolute;
+    right:1.3rem;
+    top:0.24rem;
+  }
+
+  .tan ul li {
+    font-size: 0.28rem;
+    color: #fff;
+    margin-top: 1.10rem;
+    text-align: center;
+  }
+  .lang{
+    display: none;
+  }
+
+
+
+
+
+
+  .useRight {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    padding-left: 0;
+  }
+
+  .mpNav {
+    height: 0.86rem;
+    padding: 0 0.28rem;
+  }
+
+  .mpNav img:first-child {
+    float: left;
+    width: 24.8%;
+    margin-top: 0.12rem;
+  }
+
+  .mpNav img:last-child {
+    float: right;
+    /* width: 10%; */
+    margin-top: 0.24rem;
+    width: 0.44rem;
+    height: 0.38rem;
+  }
+
+
+
+  .mpCon {
+    margin-top: 0.76rem;
+  }
+
+  .mpCon .eye {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .mpTit {
+    font-family: SourceHanSansSC-Bold, SourceHanSansSC;
+    font-weight: bold;
+    font-size: 0.36rem;
+    font-weight: 400;
+
+    padding: 0.80rem 0 0.62rem;
+    text-align: center;
+  }
+
+  .mpTu1 img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .mpTu1 span {
+    font-family:  SourceHanSansCN-Normal, SourceHanSansCN, fontRB;
+    font-weight: 400;
+    font-size: 0.28rem;
+    text-align: center;
+    display: block;
+    margin: 0.20rem 0;
+    line-height: 0.46rem;
+  }
+
+  .mpTu1 .mpTu1Img {
+    width: 80%;
+  }
+
+  .mpTu1 .mpTu2 {
+    width: 76%;
+    margin-top: 0.62rem;
+  }
+
+  .mpTu1 .mpTu3 {
+    width: 95.7%;
+    margin-top: 0.86rem;
+  }
+
+  .mpTu1 .mpTu4 {
+    width: 100%;
+    margin-top: 0.86rem;
+  }
+
+  .useRightText {
+    padding: 0 0.40rem;
+  }
+
+  .useRightText .p1 {
+    font-size: 0.24rem;
+    line-height: 0.50rem;
+    font-weight: bold;
+    /* font-family: SourceHanSans-Bold, SourceHanSans, fontRB; */
+    font-family: fontSy;
+    margin-top: 1.5rem;
+  }
+
+  .useRightText .p2 {
+    padding-bottom: 0.40rem;
+  }
+
+  .useRightText .p2 span {
+    display: block;
+    margin-top: 0.40rem;
+    font-size: 0.20rem;
+    /* font-family: SourceHanSansCN-Normal, SourceHanSansCN, fontRB; */
+    font-family: fontSy;
+    font-weight: 400;
+    line-height: 0.36rem;
+  }
+
+
+
+
+
+}

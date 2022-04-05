@@ -1,0 +1,55 @@
+.about-as .page-header[data-v-2cfca3cb] {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: .266667rem
+}
+
+.about-as .page-header .btn-left[data-v-2cfca3cb] {
+    position: fixed;
+    left: .533333rem
+}
+
+.about-as .page-header .header-content[data-v-2cfca3cb] {
+    text-align: center;
+    font-size: .48rem;
+    color: #3a3a3a;
+    font-weight: 600;
+    flex: 1
+}
+
+.about-as .page-header .appeal-record[data-v-2cfca3cb] {
+    color: #d8182d;
+    font-size: .346667rem
+}
+
+.about-as .logo-version[data-v-2cfca3cb] {
+    padding-top: 2.453333rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.about-as .logo-version img[data-v-2cfca3cb] {
+    width: 4.96rem;
+    height: .693333rem
+}
+
+.about-as .logo-version .version[data-v-2cfca3cb] {
+    font-size: .426667rem;
+    padding-top: .16rem;
+    color: #3a3a3a
+}
+
+.about-as .about-us-disc[data-v-2cfca3cb] {
+    font-size: .373333rem;
+    margin-top: .8rem;
+    color: #3a3a3a
+}
+
+.about-as .about-us-email[data-v-2cfca3cb] {
+    font-size: .373333rem;
+    margin-top: .266667rem;
+    color: #3a3a3a
+}
