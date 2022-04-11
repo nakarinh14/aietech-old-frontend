@@ -160,15 +160,25 @@ $(".mpDH").html(`
 
 function checkLanguage(val) {
   $("#pc_lang .index-header-lang").slideUp();
-  // $(".arrow").removeClass("curr");
+  $(".arrow").removeClass("curr");
 
-  // $('.menu').css('display', 'none');
-  // $('.lang').css('display', 'none');
-  // $('#tan').slideUp()
+  $('.menu').css('display', 'none');
+  $('.lang').css('display', 'none');
+  $('#tan').slideUp()
 
-  // if (val == 1) {
-  //   langEn();
-  // } else if (val == 2) {
-  //   langTh();
-  // }
+  if (val == 1) {
+    langEn();
+  } else if (val == 2) {
+    langTh();
+  }
 }
+
+function toggleLanguage() {
+  const currentLang = localStorage.getItem('localLang');
+  if (currentLang === 'en') {
+    langTh();
+  } else {
+    langEn();
+  }
+}
+

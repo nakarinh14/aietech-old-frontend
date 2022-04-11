@@ -504,18 +504,30 @@
     z-index: 10;
   }
 
-  .mpNav img:first-child {
+  .mpNavLogo {
     float: left;
-    width: 24.8%;
+    width: 18.8%;
     margin-top: 0.12rem;
   }
 
-  .mpNav img:last-child {
-    float: right;
+  /*.mpNav div {*/
+  /*  float: right;*/
+  /*  !* width: 10%; *!*/
+  /*  !*margin-top: 0.24rem;*!*/
+  /*  !*width: 0.44rem;*!*/
+  /*  !*height: 0.30rem;*!*/
+  /*}*/
+
+  .mpNavRightText {
+    /* width: 10%; */
+    font-size: 0.24rem;
+  }
+
+  .mpNavRight {
     /* width: 10%; */
     margin-top: 0.24rem;
     width: 0.44rem;
-    height: 0.38rem;
+    height: 0.30rem;
   }
 }
 

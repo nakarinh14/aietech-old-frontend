@@ -174,3 +174,13 @@ function checkLanguage(val) {
     langTh();
   }
 }
+
+
+function toggleLanguage() {
+  const currentLang = localStorage.getItem('localLang');
+  if (currentLang === 'en') {
+    langTh();
+  } else {
+    langEn();
+  }
+}

@@ -118,15 +118,15 @@ select {
     top: 0;
     left: 0;
     background: rgba(11, 12, 41, 0.27);
-    padding: 0 calc(50% - 640px);
+    padding: 0 calc(50% - 680px);
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
 }
 .index-header .index-header-1 {
-    width: 190px;
-    height: 82px;transform: translateY(5px);
+    width: 150px;
+    height: 52px;transform: translateY(5px);
 }
 .index-header .index-header-2 {
     width: 1000px;

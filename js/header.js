@@ -7,7 +7,7 @@ $('#heng').click(function () {
 
 $('#hengClose').click(function () {
     $('#tan').slideUp()
-    $('.arrow').removeClass('curr')    
+    $('.arrow').removeClass('curr')
     $('.lang').css('display', 'none');
     pcflag = false;
     flag = false;
@@ -15,7 +15,7 @@ $('#hengClose').click(function () {
 
 var flag = false;
 
-$('#language').click(function () {
+$('.language').click(function () {
     if (flag == false) {
         $('.menu').css('display', 'none');
         $('.lang').fadeIn(400);

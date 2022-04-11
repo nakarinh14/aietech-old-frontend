@@ -26,6 +26,7 @@
 <body style="">
 <div class="tan" id="tan">
     <div class="tanNav clearfix">
+        <img class="tanLogo" src="./img/aimomics_logo.png" alt="">
         <img class="tanLogo" src="./img/logo.png" alt="">
         <img class="tanHeng" src="./img/heng.png" id="hengClose" alt="">
         <span id="language"> <em class="identification">EN</em> <i class="arrow"></i></span>
@@ -44,12 +45,17 @@
     </ul>
 </div>
 <div class="mpNav clearfix  visible-xs-block">
-    <img src="./img/header.png" alt="">
-    <img src="./img/more.png" id="heng" alt="">
+    <img src="img/aimomics_header_mobile.png" alt="" class="mpNavLogo">
+    <img src="img/header.png" alt="" class="mpNavLogo" style="margin-left: 5px">
+    <div style="text-align: right;">
+        <span class="language" style="margin-right: 0.2rem;" onclick="toggleLanguage()"><em class="identification mpNavRightText">EN</em></span>
+        <img src="img/more.png" id="heng" alt="" class="mpNavRight">
+    </div>
 </div>
 <div class="container">
     <div class="index-header hidden-xs">
-        <img src="./img/index_header.png" class="index-header-1">
+        <img src="img/aimomics_header.png" class="index-header-1">
+        <img src="img/index_header.png" class="index-header-1"  style="margin-left: 20px">
         <div class="index-header-2">
 			<span class="pcNav"><a onclick="goHome()">HOME</a>
         <a onclick="goFreeDemo()">FREE DEMO</a>
