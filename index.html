@@ -26,8 +26,10 @@
 <body style="">
 <div class="tan" id="tan">
     <div class="tanNav clearfix">
-        <img class="tanLogo" src="img/aimomics_logo.png" alt="">
-        <img class="tanLogo" src="img/logo.png" alt="" style="margin-left: 20px">
+        <a href="http://www.aimomics.org" target="blank">
+            <img class="tanLogo" src="img/aimomics_logo.png" alt="">
+        </a>
+        <img class="tanLogo" onclick="goHome()" src="img/logo.png" alt="" style="margin-left: 0.9rem">
         <img class="tanHeng" src="img/heng.png" id="hengClose" alt="">
         <span class="language"><em class="identification">EN</em> <i class="arrow"></i></span>
     </div>
@@ -39,7 +41,7 @@
     </ul>
     <ul class="lang">
         <li onclick="checkLanguage(&#39;1&#39;)">English</li>
-        <li onclick="checkLanguage(&#39;2&#39;)">ภาษาไทย</li>
+        <li onclick="checkLanguage(&#39;2&#39;)">ไทย</li>
     </ul>
 </div>
 <!--<div class="mpNav clearfix visible-xs-block">-->
@@ -49,16 +51,22 @@
 <!--    <img src="img/more.png" id="heng" alt="">-->
 <!--</div>-->
 <div class="mpNav clearfix visible-xs-block">
-    <img src="img/aimomics_header_mobile.png" alt="" class="mpNavLogo">
-    <img src="img/header.png" alt="" class="mpNavLogo" style="margin-left: 5px">
-    <div style="text-align: right;">
-        <span class="language" style="margin-right: 0.2rem;" onclick="toggleLanguage()"><em class="identification mpNavRightText">EN</em></span>
+    <a href="http://www.aimomics.org" target="blank">
+        <img src="img/aimomics_header_mobile.png" alt="" class="mpNavLogo">
+    </a>
+    <img src="img/header.png" alt="" class="mpNavLogo" style="margin-left: 0.9rem">
+    <div onclick="toggleLanguage()" style="text-align: right;">
+        <span><em class="mpNavRightText">ไทย</em></span>
+        <em style="margin-left: 0.4em; margin-right: 0.4em" class="mpNavRightText">|</em>
+        <span style="margin-right: 0.2rem;"><em class="mpNavRightText">EN</em></span>
         <img src="img/more.png" id="heng" alt="" class="mpNavRight">
     </div>
 </div>
 <div class="container pcBg hidden-xs">
     <div class="index-header">
-        <img src="img/aimomics_header.png" class="index-header-1">
+        <a href="http://www.aimomics.org" target="blank">
+            <img src="img/aimomics_header.png" class="index-header-1">
+        </a>
         <img src="img/index_header.png" class="index-header-1"  style="margin-left: 20px">
         <div class="index-header-2">
           <span class="pcNav"><a onclick="goHome()">HOME</a>
@@ -69,7 +77,7 @@
                 <span><em class="identification">EN</em> <i class="arrow"></i></span>
                 <div class="index-header-lang">
                     <div onclick="checkLanguage(&#39;1&#39;)">English</div>
-                    <div onclick="checkLanguage(&#39;2&#39;)">ภาษาไทย</div>
+                    <div onclick="checkLanguage(&#39;2&#39;)">ไทย</div>
                 </div>
             </div>
         </div>

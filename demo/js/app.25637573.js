@@ -403,7 +403,7 @@
                 agreement: "Agreement",
                 language: "Language",
                 message: "Message",
-                chinese: "ภาษาไทย",
+                chinese: "ไทย",
                 hk: "繁體中文",
                 english: "English",
                 logout: "Log out"
@@ -528,7 +528,7 @@
                 agreement: "ข้อตกลง",
                 language: "เปลี่ยนภาษา",
                 message: "ข้อความ",
-                chinese: "ภาษาไทย",
+                chinese: "ไทย",
                 hk: "繁體中文",
                 english: "English",
                 logout: "ล็อกเอ้าท์"

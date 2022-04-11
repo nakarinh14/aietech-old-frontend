@@ -87,7 +87,7 @@ function langEn() {
 
 function langTh() {
   localStorage.setItem('localLang', 'th');
-  $(".identification").html("ภาษาไทย");
+  $(".identification").html("ไทย");
 
   $(".pcNav").html(`<a onclick="goHome()"><span class="fontCon">หน้าหลัก</span></a>
     <a onclick="showAlert()"><span class="fontCon">ข่าวสาร</span></a>
