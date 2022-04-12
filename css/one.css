@@ -180,6 +180,12 @@ body {
     height: 0.30rem;
   }
 
+  .mpNavLogoAietech{
+    float: left;
+    width: 34.8%;
+    margin-top: 0.12rem;
+    margin-left: 0.5rem;
+  }
 
 
   .mpCon {
