@@ -104,7 +104,7 @@ function langEn() {
   );
 
 
-  $(".syBtn1").html(`ENTER<span class="right-arrow"></span>`);
+  $(".syBtn1").html(`ENTER`);
 
   //mp
 
@@ -212,7 +212,7 @@ function langTh() {
   $("#main_input_message").attr("placeholder", "ข้อความ");
   $(".mobile-button.sySubmit").html(`ส่งข้อความ <span class="mobile-right-arrow"></span>`);
   $(".index-button.sySubmit").html(`ส่งข้อความ <span class="right-arrow"></span>`);
-  $(".syBtn1").html(`เข้าสู่ระบบ<span class="right-arrow"></span>`);
+  $(".syBtn1").html(`เข้าสู่ระบบ`);
   $(".index-box-asian").text("ชาวเอเชียเท่านั้น")
   $(".index-box-footer").text("ค่าความไว / ความจำเพาะ")
   $(".index-box-average").html(`ค่าเฉลี่ยของผู้ป่วย <span style="color: #FFDA39">เอเชีย</span>`)
